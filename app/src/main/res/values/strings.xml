@@ -1,0 +1,78 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">QuizApp</string>
+    <!--Header-->
+    <string name="header">Weird Random Quiz!</string>
+    <string name="h2">Answer all 10 questions!</string>
+    <!--Question 1-->
+    <string name="Q1">Q1</string>
+    <string name="Q1_Question">What Animal is this?</string>
+    <!--Question 2-->
+    <string name="Q2">Q2</string>
+    <string name="Q2_Question">Pick the Birds: (2)</string>
+    <!--Question 3-->
+    <string name="Q3">Q3</string>
+    <string name="Q3_Question">Which of the following is True? (Pick one)</string>
+    <string name="Q3_A">Tomatoes are fruits.</string>
+    <string name="Q3_B">Tomatoes are seeds.</string>
+    <string name="Q3_C">Fruits are Tomatoes.</string>
+    <string name="Q3_D">Seeds are Fruits.</string>
+    <!--Question 4-->
+    <string name="Q4">Q4</string>
+    <string name="Q4_Question">How Many different Fruits are in the Image?</string>
+    <string name="Q4_hint">Pick a Number</string>
+    <!--Question 5-->
+    <string name="Q5">Q5</string>
+    <string name="Q5_Question">Complete the Sentence:</string>
+    <string name="Q5_Old">Old </string>
+    <string name="Q5_Person">Person</string>
+    <string name="Q5_had">had a </string>
+    <string name="Q5_Place">Place</string>
+    <string name="Q5_dot">.</string>
+    <!--Question 6-->
+    <string name="Q6">Q6</string>
+    <string name="Q6_Question">What Animal is this?</string>
+    <string name="Q6_A">Cow</string>
+    <string name="Q6_B">Lama</string>
+    <string name="Q6_C">Duck</string>
+    <string name="Q6_D">Horse</string>
+    <!--Question 7-->
+    <string name="Q7">Q7</string>
+    <string name="Q7_Question">What do Cows Drink?</string>
+    <string name="Q7_A">Milk</string>
+    <string name="Q7_B">Soda</string>
+    <string name="Q7_C">Beer</string>
+    <string name="Q7_D">Water</string>
+    <!--Question 8-->
+    <string name="Q8">Q8</string>
+    <string name="Q8_Question">What Colors is the cat? (2)</string>
+    <string name="Q8_A">Orange</string>
+    <string name="Q8_B">Green</string>
+    <string name="Q8_C">Black</string>
+    <string name="Q8_D">Blue</string>
+    <!--Question 9-->
+    <string name="Q9">Q9</string>
+    <string name="Q9_Question">Pick the TRUE Sentences.(2)</string>
+    <string name="Q9_A">Pigs are herbivores.</string>
+    <string name="Q9_B">Pigs are really smart.</string>
+    <string name="Q9_C">Pigs have better sense of smell than dogs.</string>
+    <string name="Q9_D">Pigs are filthy animals.</string>
+    <!--Question 10-->
+    <string name="Q10">Q10</string>
+    <string name="Q10_Question">Are you a duck?</string>
+    <string name="Q10_A">Yes</string>
+    <string name="Q10_B">No</string>
+
+    <!--Buttons-->
+    <string name="Grade">Grade Me!</string>
+    <string name="Reset">Start Over.</string>
+
+    <!--Toasts-->
+    <!-- Bad Grade (less than 5)-->
+    <string name="fail_grade">Too bad, you failed! Your score was: <xliff:g example="2" id="grade">%.1f</xliff:g> out of 10.</string>
+    <!-- Good Grade (higher than 5 less than 8)-->
+    <string name="good_grade">Well done, but you should try harder next time. Your score was: <xliff:g example="6" id="finalGrade">%.1f</xliff:g> out of 10.</string>
+    <!-- Great Grade (More than 8, less than 10)-->
+    <string name="great_grade">Great Job! Almost Perfect! Your score was: <xliff:g example="8" id="finalGrade">%.1f</xliff:g> out of 10.</string>
+    <!-- Perfect Grade (10)-->
+    <string name="perfect_grade">PERFECT! Your score was: <xliff:g example="10" id="finalGrade">%.1f</xliff:g> out of 10.</string>
+</resources>
