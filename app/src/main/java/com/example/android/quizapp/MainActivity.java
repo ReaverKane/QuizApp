@@ -68,13 +68,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    //Find the views once only thanks @Alex_234
-
-
-
-
-
-
     //Get Grades When "Grade Me!" is Pressed.
     public void gradeMe(View v) {
         double finalGrade = getGrades();
